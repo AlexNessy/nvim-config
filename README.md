@@ -1,4 +1,4 @@
 # My nvim config
-make sure to '''bash
+make sure to ```bash
 sudo pacman -S npm 
-''' for mason libraries
+``` for mason libraries
