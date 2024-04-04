@@ -1,6 +1,3 @@
 # My nvim config
-make sure to install npm 
-```bash
-sudo pacman -S npm
-```
+make sure to 'sudo pacman -S npm' for mason libraries
 
