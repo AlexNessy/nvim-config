@@ -10,7 +10,7 @@ return {
 			local wk = require("which-key")
 			wk.register({
 				["<C-p>"] = { "Find File" },
-				["<C-n>"] = { ":Neotree left <CR>", "Neotree" },
+				["<C-n>"] = { ":Neotree right <CR>", "Neotree" },
 				["<C-l>"] = { "<C-w>w", "Switch Windows" },
 				["<Tab>"] = { ":bnext <CR>", "Next Buffer" },
 				["<S-Tab>"] = { ":bprev <CR>", "Previous Buffer" },
