@@ -15,7 +15,7 @@ return {
 				["<Tab>"] = { ":bnext <CR>", "Next Buffer" },
 				["<S-Tab>"] = { ":bprev <CR>", "Previous Buffer" },
 				["<C-e>"] = { "Show Harpoon List" },
-        ["<C-r>"] = { ":Bdelete <CR>", "Close Buffer" },
+        ["<C-b>"] = { ":Bdelete <CR>", "Close Buffer" },
 				K = { "Define Function" },
 				["<leader>"] = {
 					a = { "Add to Harpoon List" },
