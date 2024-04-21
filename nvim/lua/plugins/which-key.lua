@@ -10,12 +10,12 @@ return {
 			local wk = require("which-key")
 			wk.register({
 				["<C-p>"] = { "Find File" },
-				["<C-n>"] = { ":Neotree right <CR>", "Neotree" },
+				["<C-n>"] = { ":Neotree left <CR>", "Neotree" },
 				["<C-l>"] = { "<C-w>w", "Switch Windows" },
 				["<Tab>"] = { ":bnext <CR>", "Next Buffer" },
 				["<S-Tab>"] = { ":bprev <CR>", "Previous Buffer" },
 				["<C-e>"] = { "Show Harpoon List" },
-        ["<C-b>"] = { ":Bdelete <CR>", "Close Buffer" },
+				["<C-b>"] = { ":Bdelete <CR>", "Close Buffer" },
 				K = { "Define Function" },
 				["<leader>"] = {
 					a = { "Add to Harpoon List" },
@@ -28,11 +28,18 @@ return {
 						name = "Formatting",
 						f = { "Format" },
 					},
-          u = { "Incline" },
-          c = {
-            name = "Code",
-            a = { "Action" },
-          },
+					u = { "Incline" },
+					c = {
+						name = "Code",
+						a = { "Action" },
+					},
+					e = {
+						name = "NeoTree Options",
+						e = {
+							":Neotree toggle left<CR>",
+							"Toggle Neotree",
+						},
+					},
 				},
 			})
 		end,
