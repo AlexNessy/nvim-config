@@ -10,14 +10,14 @@ return {
 			local wk = require("which-key")
 			wk.register({
 				["<C-p>"] = { "Find File" },
-				["<C-n>"] = { ":Neotree left <CR>", "Neotree" },
+				["<C-n>"] = { ":Oil --float <CR>", "Oil" },
 				["<C-l>"] = { "<C-w>w", "Switch Windows" },
-				["<Tab>"] = { ":bnext <CR>", "Next Buffer" },
-				["<S-Tab>"] = { ":bprev <CR>", "Previous Buffer" },
 				["<C-e>"] = { "Show Harpoon List" },
-				["<C-b>"] = { ":Bdelete <CR>", "Close Buffer" },
 				K = { "Define Function" },
 				["<leader>"] = {
+					z = { ":wqa <CR>", "Quit All" },
+					q = { ":q! <CR>", "Quit buffer" },
+					w = { ":w <CR>", "Save buffer" },
 					a = { "Add to Harpoon List" },
 					r = { "Remove from Harpoon List" },
 					f = {
