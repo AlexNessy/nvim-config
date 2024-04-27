@@ -10,7 +10,7 @@ return {
 			local wk = require("which-key")
 			wk.register({
 				["<C-p>"] = { "Find File" },
-				["<C-n>"] = { ":Oil --float <CR>", "Oil" },
+				["<C-n>"] = { ":Neotree left <CR>", "NeoTree" },
 				["<C-l>"] = { "<C-w>w", "Switch Windows" },
 				["<C-e>"] = { "Show Harpoon List" },
 				K = { "Define Function" },
