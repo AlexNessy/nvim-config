@@ -11,7 +11,6 @@ return {
       wk.register({
         ["<C-p>"] = { "Find File" },
         ["<C-n>"] = { ":Neotree left <CR>", "NeoTree" },
-        ["<C-l>"] = { "<C-w>w", "Switch Windows" },
         ["<Tab>"] = { ":bnext<CR>", "Next Buffer" },
         ["<S-Tab>"] = { ":bprev<CR>", "Previous Buffer" },
         K = { "Define Function" },
