@@ -41,7 +41,7 @@ return {
           b = {
             name = "Buffer",
             d = {
-              ":bdelete<CR>",
+              ":Bdelete<CR>",
               "Delete Buffer",
             },
           },
