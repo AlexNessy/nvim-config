@@ -9,8 +9,8 @@ local nnoremap = require("user.keymap_utils").nnoremap
 
 local M = {}
 
-nnoremap("H","$")
-nnoremap("L","^")
+nnoremap("L","$")
+nnoremap("H","^")
 
 return M
 
